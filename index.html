@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Invader</title>
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="panel">
+      <div id="onda-container">ONDA #<span class="waves"></span></div>
+      <div id="score-container">SCORE #<span class="score"></span></div>
+      <div id="message-container"><span id="message"></span></div>
+      <div id="life-container">VIDAS #<span id="lifes"></span></div>
+    </div>
+
+    <div id="game-over" class="hide">
+      <h1>GAME OVER</h1>
+      <button id="play-again">Jogar Novamente</button>
+      <div>
+        <p>Pontuação Máxima <span class="score"></span></p>
+        <p>Você sobreviveu <span class="waves"></span> onda(s)</p>
+      </div>
+    </div>
+
+    <script src="./public/javascripts/p5.min.js"></script>
+    <script src="./public/javascripts/constants.js"></script>
+    <script src="./public/javascripts/game.js"></script>
+    <script src="./public/javascripts/vector.js"></script>
+    <script src="./public/javascripts/shoot.js"></script>
+    <script src="./public/javascripts/ship.js"></script>
+    <script src="./public/javascripts/enemy.js"></script>
+    <script src="./public/javascripts/enemies.js"></script>
+    <script src="./public/javascripts/sketch.js"></script>
+  </body>
+</html>
